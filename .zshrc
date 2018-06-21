@@ -102,3 +102,17 @@ source $ZSH/oh-my-zsh.sh
 
 alias ll="ls -l"
 alias la="ls -lAFh"
+alias nukebinobj="find . -type d -name bin -o -name obj | xargs rm -r > /dev/null"
+alias updatelocate="sudo launchctl load -w /System/Library/LaunchDaemons/com.apple.locate.plist"
+alias vs4m="open -n /Applications/Visual\ Studio.app"
+
+# Android SDK
+export ANDROID_SDK="/Users/cheesebaron/Library/Developer/Xamarin/android-sdk-macosx/"
+export PATH="$ANDROID_SDK/tools:$ANDROID_SDK/platform-tools:$PATH"
+
+# user bin folder
+export HOME_BIN="/Users/tomasci/bin/"
+export PATH="$PATH:$HOME_BIN"
+
+#ruby stuff
+export PATH="$PATH:$HOME/.rvm/bin"
