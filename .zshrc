@@ -112,7 +112,7 @@ export ANDROID_SDK="/Users/cheesebaron/Library/Developer/Xamarin/android-sdk-mac
 export PATH="$ANDROID_SDK/tools:$ANDROID_SDK/platform-tools:$PATH"
 
 # user bin folder
-export HOME_BIN="/Users/tomasci/bin/"
+export HOME_BIN="/Users/cheesebaron/bin/"
 export PATH="$PATH:$HOME_BIN"
 
 #ruby stuff
